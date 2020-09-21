@@ -1,0 +1,15 @@
+{
+	"name": "zerossl",
+	"url": "https://github.com/VolkovRA/HaxeZeroSSL/blob/master/README.md",
+	"license": "MIT",
+	"tags": ["zerossl", "rest", "api", "ssl", "certificate", "js"],
+	"description": "The Haxe JS client to ZeroSSL REST API",
+	"version": "1.0.0",
+	"releasenote": "stable",
+	"contributors": ["VolkovRA"],
+    "classPath": "lib",
+    "dependencies": 
+    {
+        "loader": "git:https://github.com/VolkovRA/HaxeLoader.git"
+    }
+}

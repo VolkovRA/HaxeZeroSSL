@@ -1,0 +1,44 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": "haxe",
+            "args": [
+                "build.hxml"
+            ],
+            "problemMatcher": [
+                "$haxe-absolute",
+                "$haxe",
+                "$haxe-error",
+                "$haxe-trace"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "clear": true
+            }
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "node",
+            "args": [
+                "bin/index.js"
+            ],
+            "group": "none",
+            "presentation": {
+                "clear": true
+            },
+            "problemMatcher": [
+                "$haxe-absolute",
+                "$haxe",
+                "$haxe-error",
+                "$haxe-trace"
+            ]
+        }
+    ]
+}
